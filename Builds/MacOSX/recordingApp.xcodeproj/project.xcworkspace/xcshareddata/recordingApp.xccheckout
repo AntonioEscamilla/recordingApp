@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D70C609-DE26-4057-BB53-2CBCEA35EC46</string>
+	<key>IDESourceControlProjectName</key>
+	<string>recordingApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B3B2E1FC5C65855862C05668D0060BCAD7D5CB73</key>
+		<string>https://github.com/ProyectoDeGrado/software.git</string>
+		<key>DA79A6B4BAE068368164510ACB9EFFB68B925B95</key>
+		<string>https://github.com/tonyducks/recordingApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Builds/MacOSX/recordingApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B3B2E1FC5C65855862C05668D0060BCAD7D5CB73</key>
+		<string>../../../../../software</string>
+		<key>DA79A6B4BAE068368164510ACB9EFFB68B925B95</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tonyducks/recordingApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DA79A6B4BAE068368164510ACB9EFFB68B925B95</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA79A6B4BAE068368164510ACB9EFFB68B925B95</string>
+			<key>IDESourceControlWCCName</key>
+			<string>recordingApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B3B2E1FC5C65855862C05668D0060BCAD7D5CB73</string>
+			<key>IDESourceControlWCCName</key>
+			<string>software</string>
+		</dict>
+	</array>
+</dict>
+</plist>

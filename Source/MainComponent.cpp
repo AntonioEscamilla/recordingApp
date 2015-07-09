@@ -112,7 +112,7 @@ void MainContentComponent::startRecording(){
     audioTransportSource.setSource (nullptr);
     audioFormatReaderSource = nullptr;
 
-	File soundfile (File::getSpecialLocation (File::userDocumentsDirectory).getChildFile("PARTYGIRL_LELOMIX.wav"));
+	File soundfile (File::getSpecialLocation (File::userDocumentsDirectory).getChildFile("03-Bongo_bong.wav"));
 	
 	AudioFormatReader* audioFormatReader = audioFormatManager.createReaderFor(soundfile);
 	audioFormatReaderSource = new AudioFormatReaderSource(audioFormatReader, true);
