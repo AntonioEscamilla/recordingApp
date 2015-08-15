@@ -2,9 +2,16 @@
 
 <JUCERPROJECT id="JJeMKk" name="recordingApp" projectType="guiapp" version="1.0.0"
               bundleIdentifier="com.yourcompany.recordingApp" includeBinaryInAppConfig="1"
-              jucerVersion="3.1.0">
+              jucerVersion="3.2.0">
   <MAINGROUP id="aQqBMs" name="recordingApp">
     <GROUP id="{5361B2C0-1FE2-7BDD-23F0-947C4B2C2E70}" name="Source">
+      <FILE id="eYUq8P" name="AppHeader.h" compile="0" resource="0" file="Source/AppHeader.h"/>
+      <FILE id="xVl8qz" name="AudioRecord.cpp" compile="1" resource="0" file="Source/AudioRecord.cpp"/>
+      <FILE id="poDJWE" name="AudioRecord.h" compile="0" resource="0" file="Source/AudioRecord.h"/>
+      <FILE id="n621hN" name="RecordingThumbnail.cpp" compile="1" resource="0"
+            file="Source/RecordingThumbnail.cpp"/>
+      <FILE id="IjFxYb" name="RecordingThumbnail.h" compile="0" resource="0"
+            file="Source/RecordingThumbnail.h"/>
       <FILE id="bZIpbU" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
       <FILE id="DetLpK" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
@@ -31,8 +38,8 @@
         <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
-        <MODULEPATH id="dRowAudio" path="../../JUCE/modules"/>
         <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="dRowAudio" path="../../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
   </EXPORTFORMATS>
