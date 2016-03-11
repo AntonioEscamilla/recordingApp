@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DA79A6B4BAE068368164510ACB9EFFB68B925B95",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DA79A6B4BAE068368164510ACB9EFFB68B925B95" : 0,
+    "B3B2E1FC5C65855862C05668D0060BCAD7D5CB73" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6D70C609-DE26-4057-BB53-2CBCEA35EC46",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DA79A6B4BAE068368164510ACB9EFFB68B925B95" : "recordingApp",
+    "B3B2E1FC5C65855862C05668D0060BCAD7D5CB73" : "software"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "recordingApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Builds\/MacOSX\/recordingApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ProyectoDeGrado\/software.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3B2E1FC5C65855862C05668D0060BCAD7D5CB73"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tonyducks\/recordingApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DA79A6B4BAE068368164510ACB9EFFB68B925B95"
+    }
+  ]
+}

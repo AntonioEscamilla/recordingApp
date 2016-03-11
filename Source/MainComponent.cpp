@@ -97,7 +97,7 @@ void MainContentComponent::audioDeviceIOCallback(const float** inputData,int Inp
 
 	for(int i = 0; i < InputChannels; i++){
 		for(int j = 0; j < numSamples; j++){
-			float sample =  *buffer.getSampleData(i, j);
+			float sample =  *buffer.getReadPointer(i, j);
 			outputData[i][j] =sample;
 		}
 	}
@@ -112,13 +112,13 @@ void MainContentComponent::startRecording(){
     audioTransportSource.setSource (nullptr);
     audioFormatReaderSource = nullptr;
 
-	File soundfile (File::getSpecialLocation (File::userDocumentsDirectory).getChildFile("03-Bongo_bong.wav"));
+	File soundfile (File::getSpecialLocation (File::userDocumentsDirectory).getChildFile("voz anecoica corta.wav"));
 	
 	AudioFormatReader* audioFormatReader = audioFormatManager.createReaderFor(soundfile);
 	audioFormatReaderSource = new AudioFormatReaderSource(audioFormatReader, true);
 	audioTransportSource.setSource(audioFormatReaderSource, 32768, &thread, audioFormatReader->sampleRate, 1);
 	audioTransportSource.start();
-	//audioDeviceManager->addAudioCallback(this);
+	audioDeviceManager->addAudioCallback(this);
 	audioDeviceManager->addAudioCallback(&recorder);
 
     const File file (File::getSpecialLocation (File::userDocumentsDirectory).getNonexistentChildFile ("OutputRecording", ".wav"));
@@ -143,7 +143,8 @@ void MainContentComponent::timerCallback(){
 }
 
 void MainContentComponent::showAudioSettings(){
-    AudioDeviceSelectorComponent settingsComp (*audioDeviceManager,1, 2,1, 2,false, false,true, false);
+    audioDeviceManager->removeAudioCallback(this);
+    AudioDeviceSelectorComponent settingsComp (*audioDeviceManager,1,1,1,1,false, false,true, false);
     settingsComp.setSize (500, 400);
     LookAndFeel_V3 settingsLaf;
     settingsLaf.setColour (Label::textColourId, Colours::white);
